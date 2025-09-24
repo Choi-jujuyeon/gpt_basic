@@ -1,0 +1,6 @@
+# chap02 안의 모든 파일 무시
+chap02/*
+
+# 예외적으로 추적할 파일 지정
+!chap02/README.md
+!chap02/gpt_basic.py
