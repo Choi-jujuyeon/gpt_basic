@@ -107,3 +107,13 @@ while True:
     print("AI: "+response.choices[0].message.content)
 
 ```
+
+## 9. 멀티턴 대화 만들기
+
+: API로 답변 받아오는 부분을 함수로 설정 -> 사용자 입력을 함수매개변수에 넣어 message 쌓이도록 설정
+
+```
+    messages.append({"role":"user","content":user_input})
+    ai_response = get_ai_response(messages)                 #대화 기록을 기반으로 AI 응답 가져오기
+    messages.append({"role":"assistant", "content":ai_response})
+```
