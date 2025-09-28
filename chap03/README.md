@@ -11,6 +11,12 @@ chap03\Scripts\activate
 pip install openai
 pip install python-dotenv
 
+# 스트림릿 설치
+pip install streamlit
+
+# 스트림릿 실행
+streamlit run streamlit_basic.py
+
 ```
 
 ## 2. 핵심 포인트
@@ -117,3 +123,5 @@ while True:
     ai_response = get_ai_response(messages)                 #대화 기록을 기반으로 AI 응답 가져오기
     messages.append({"role":"assistant", "content":ai_response})
 ```
+
+## 10. 스트림릿을 이용한 챗봇 만들기

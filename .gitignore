@@ -7,3 +7,4 @@ chap03/*
 !chap02/gpt_basic.py
 !chap03/README.md
 !chap03/gpt_basic.py
+!chap03/streamlit_basic.py
