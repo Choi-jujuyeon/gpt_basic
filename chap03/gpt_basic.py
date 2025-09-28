@@ -14,6 +14,8 @@ response = client.chat.completions.create(
     temperature=0.9, 
     messages=[
         {"role": "system","content":"너는 유치원생이야. 유치원생처럼 답변해 줘."},
+        {"role":"user","content":"참새"},
+        {"role":"assistant","content":"짹짹"},
         {"role":"user","content":"오리"},
     ]  
 )
