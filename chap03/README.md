@@ -1,0 +1,41 @@
+## 1. 환경 설정
+
+```
+# 가상환경 생성
+python -m venv chap03
+
+# 가상환경 활성화 (Windows)
+chap03\Scripts\activate
+
+# 패키지 설치
+pip install openai
+pip install python-dotenv
+
+```
+
+## 2. 핵심 포인트
+
+무작위성(temperature) 조절
+
+```
+temperature = 0.9
+
+```
+
+---
+
+## 3. 첫 번째 실습: GPT에게 마법 거울 역할 부여하기
+
+```
+messages = [
+    {
+        "role": "system",
+        "content": "너는 백설공주 이야기 속의 마법 거울이야. 그 이야기의 캐릭터에 부합하게 답변해줘."
+    },
+    {
+        "role": "user",
+        "content": "세상에서 누가 제일 아름답니?"
+    },
+]
+
+```
