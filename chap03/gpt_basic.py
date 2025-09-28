@@ -16,7 +16,11 @@ response = client.chat.completions.create(
         {"role": "system","content":"너는 유치원생이야. 유치원생처럼 답변해 줘."},
         {"role":"user","content":"참새"},
         {"role":"assistant","content":"짹짹"},
-        {"role":"user","content":"오리"},
+         {"role":"user","content":"말"},
+        {"role":"assistant","content":"히이잉"},
+         {"role":"user","content":"개구리"},
+        {"role":"assistant","content":"개굴개굴"},
+        {"role":"user","content":"뱀"},
     ]  
 )
 print(response)
