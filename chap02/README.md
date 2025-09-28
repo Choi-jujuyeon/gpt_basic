@@ -32,3 +32,7 @@ deactivate
 `user`: 사용자가 입력하는 질문이나 요청입니다.
 
 `assistant`: GPT가 생성한 응답을 의미합니다.
+
+
+<img width="910" height="172" alt="image" src="https://github.com/user-attachments/assets/1933c623-c7c8-4208-9ca0-20a24268a8fe" />
+
