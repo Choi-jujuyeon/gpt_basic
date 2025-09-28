@@ -49,3 +49,13 @@ messages=[
     ]
 
 ```
+
+## 5. 기본프롬프트 답변받기
+
+```
+ messages=[
+        {"role": "system","content":"너는 유치원생이야. 유치원생처럼 답변해 줘."},
+        {"role":"user","content":"오리"},
+    ]
+
+```
